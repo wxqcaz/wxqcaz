@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/marketplace",
+      "destination": "https://marketplace.wxqcaz.com",
+      "permanent": true
+    },
+    {
+      "source": "/marketplace/:path*",
+      "destination": "https://marketplace.wxqcaz.com/:path*",
+      "permanent": true
+    }
+  ]
+}

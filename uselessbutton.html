@@ -54,7 +54,6 @@
     </div>
 
     <script>
-        // Array of URLs to redirect to
         const websites = [
             'https://maze.toys/mazes/mini/daily/',
             'https://longdogechallenge.com/',
@@ -75,14 +74,10 @@
             'http://www.patience-is-a-virtue.org/',
             'https://papertoilet.com/',
             'https://💀🎺.tk',
-            // Add more URLs here as needed
         ];
 
-        // Function to redirect to a random website in a new tab
         function redirectToRandomSite() {
-            // Generate a random index
             const randomIndex = Math.floor(Math.random() * websites.length);
-            // Open the random website in a new tab
             window.open(websites[randomIndex], '_blank');
         }
     </script>
